@@ -1,4 +1,7 @@
 package streaming.content;
 
-public class ContentFactory {
+import javax.print.DocFlavor;
+
+public abstract class ContentFactory {
+    public abstract AudioContent createContent(String primary, String secondary);
 }

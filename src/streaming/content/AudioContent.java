@@ -1,4 +1,5 @@
 package streaming.content;
 
-public class AudioContent {
+public interface AudioContent {
+    void play();
 }
